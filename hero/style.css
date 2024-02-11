@@ -253,7 +253,7 @@ h5{
 		margin: 1.5%;
 	}
 }
-#Preloader{
+/*#Preloader{
 	background: rgb(255, 255, 255) url(./img/Eclipse-1s-200px.svg) no-repeat center center;
 	background-size: 150px;
 	display: flex;
@@ -266,4 +266,4 @@ h5{
 }
 #header #Preloader{
 	visibility: hidden;
-}
+}*/
