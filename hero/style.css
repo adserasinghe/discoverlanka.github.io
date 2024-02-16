@@ -262,8 +262,5 @@ h5{
 	position: fixed;
 	justify-content: center;
 	position: flex;
-	z-index: 9999;
-}
-#header #Preloader{
-	visibility: hidden;
+	z-index: -3;
 }

@@ -385,3 +385,15 @@ p:hover{
       margin: 1.5%;
     }
   }
+  #Preloader{
+    background: rgb(255, 255, 255) url(./img/Eclipse-1s-200px.svg) no-repeat center center;
+    background-size: 150px;
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    justify-content: center;
+    position: flex;
+    z-index: -3;
+  }
+  
