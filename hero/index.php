@@ -1,6 +1,5 @@
 <?php include './header.php';?>
 <div id="Preloader"></div>
-<body>
     <div id="Preloader"></div>
     <header>
         <div class="logo">
