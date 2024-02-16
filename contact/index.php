@@ -1,19 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contact Us | Discover Lanka</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <header>
+<?php include './header.php';?>
+<header>
         <div class="logo">
-            <a href="../hero/index.html">Discover Lanka </a>
+            <a href="../hero/index.php">Discover Lanka </a>
         </div>
         <input type="checkbox" id="click">
         <label for="click" class="mainicon">
@@ -22,8 +10,8 @@
             </div>
         </label>
         <nav>
-            <a href="../hero/index.html">Home</a>
-            <a href="../about us/index.html">About Us</a>
+            <a href="../hero/index.php">Home</a>
+            <a href="../about us/index.php">About Us</a>
             <a class="dropdown-menu">
               <a type="button" data-bs-toggle="dropdown" aria-expanded="false">
                 Blog
@@ -54,5 +42,4 @@
         </form>
       </div>
 </div>
-  </body>
-</html>
+<?php include './footer.php';?>

@@ -1,19 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Discover Lanka</title>
-
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
-  </head>
-  <body>
+<?php include './header.php';?>
+<div id="Preloader"></div>
+<body>
     <div id="Preloader"></div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
     <header>
         <div class="logo">
-            <a href="index.html">Discover Lanka</a>
+            <a href="./index.php">Discover Lanka</a>
         </div>
         <input type="checkbox" id="click">
         <label for="click" class="mainicon">
@@ -23,7 +14,7 @@
         </label>
         <nav>
             <a href="#" class="active">Home</a>
-            <a href="../about us/index.html">About us</a>
+            <a href="../about us/index.php">About us</a>
             <a type="button" data-bs-toggle="dropdown" aria-expanded="false">
               Blog
             </a>
@@ -73,14 +64,4 @@
         <span class="visually-hidden">Next</span>
       </button>
     </div>
-  </body>
-  <div class="footer">
-    <p>All copyrights reserved by Discover Lanka-2024, Design Concept & Developed by SLK DEV</p>
-  </div>
-  <!--<script>
-    setTimeout(function(){        
-    $('#Preloader').fadeOut();
-    $('#Preloader').delay(150).fadeOut('slow'); 
-}, 10000);
-  </script>-->
-</html>
+    <?php include './footer.php'; ?>
